@@ -83,17 +83,32 @@
     <!-- Results Section -->
     <section id="results">
       <h2>Results</h2>
-      <p><!-- Did everything perform as planned? Goals met? --></p>
+      <p>Overall, we were able to meet some of our goals, but missed out on quite a few as well. We were able to make a mount that can automatically point at 
+      objects in the night sky without manual aid. However, we were not able to automatically orient the telescope like we initially planned, and we were also not
+      able to see small or distant objects. These issues could have both been fixed given a bit more time and better hardware. However, out GUI was very 
+      sucsessful, and was able to automatically extract targets and send them to the motor controler. We were able to pretty reliably look at the moon and the 
+      sun (obviously we were not gonna put the telescope on the mount when pointing at the sun). Other targets, we had a lot of trouble viewing reliably, but we 
+      were able to track jupiter for a short time at one point</p>
     </section>
     <!-- Conclusions Section -->
     <section id="conclusions">
       <h2>Conclusions</h2>
-      <p><!-- Project achievements and failures --></p>
+      <p>We concluded that while the setup we have is adiquite for viewing the moon and sun, a more precise motion system would be required to see far out targets
+      Brushless motors, or at least the ones we used, do not have the resolution in rotations to be accurate without a larger reduction. We also concluded that a
+      PCB antenna is not strong enough to recieve a reliable GPS signal, and that a real GPS antenna would be needed in order to have the auto-configuration settup
+      actually work. On the plus side, we were able to conclude that using vector math alone for our targeting is enough to get reliably accurate coordinates 
+      to see celestical bodies, and that visial or manual feedback is not required for the system to work. While our setup for autocalibration did nit work, were
+      also able to determine that given the correct hardware, this kind of system is possible.</p>
     </section>
     <!-- Future Work Section -->
     <section id="future-work">
       <h2>Future Work</h2>
-      <p><!-- Exploration if more time allowed --></p>
+      <p>Given more time, we would have made a new version of the mount that changes the motion system to closed loop stepper drivers, and incresed the reduction 
+      on the belts. Reducing the size of the belt as well could help to achieve a larger reduction in the same footprint, as they are not under much load. A 
+      tripod would have also been a very nice addition, as the mount is very hard to use outside without it. Electically, adding an on/off switch would have
+      been a very nice feature, as plugging in an unplugging the battery to power cycle was both tetious and likely not the safest. A GPS antenna is also a 
+      necessitly. Integrating a camera to the settup would have been very cool as well. Initially one of the things we wanted to add if we had time was a sperate 
+      tab in the GUI that was a live camera feed, and the ability to take pitures or videos that get stored on the pi.</p>
     </section>
     <!-- Budget Section -->
     <section id="budget">
