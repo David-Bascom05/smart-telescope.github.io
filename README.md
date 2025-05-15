@@ -114,95 +114,92 @@
 <section id="budget">
   <h2>Budget</h2>
   <table>
-    <thead>
-      <tr>
-        <th>Part</th>
-        <th>Unit Price ($)</th>
-        <th>Qty</th>
-        <th>Total ($)</th>
-        <th>Link</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td>Nema 17 Closed Loop Stepper Motor</td>
-        <td>21.55</td>
-        <td>2</td>
-        <td>43.10</td>
-        <td><a href="https://www.omc-stepperonline.com/nema-17-closed-loop-stepper-motor-52ncm-73-64oz-in-with-encoder-1000ppr-4000cpr-17hs19-2004d-e1k" target="_blank">Link</a></td>
-      </tr>
-      <tr>
-        <td>16012 Ball Bearing</td>
-        <td>9.64</td>
-        <td>2</td>
-        <td>19.28</td>
-        <td><a href="https://www.123bearing.com/bearing-housing/deep-groove-bearing/single-row/16012" target="_blank">Link</a></td>
-      </tr>
-      <tr>
-        <td>61804‑2RS</td>
-        <td>3.16</td>
-        <td>2</td>
-        <td>6.32</td>
-        <td><a href="https://www.123bearing.com/bearing-housing/deep-groove-bearing/single-row/61804-2rs" target="_blank">Link</a></td>
-      </tr>
-      <tr>
-        <td>5 mm Flange Coupler</td>
-        <td>7.49</td>
-        <td>1</td>
-        <td>7.49</td>
-        <td><a href="https://www.amazon.com/uxcell-H12D10-Coupling-Coupler-Connector/dp/B07PLB2P4W" target="_blank">Link</a></td>
-      </tr>
-      <tr>
-        <td>220XL037 Timing Belt XL Section .37 × 22 in</td>
-        <td>3.75</td>
-        <td>1</td>
-        <td>3.75</td>
-        <td><a href="https://texasbelting.com/products/220xl037-diesel" target="_blank">Link</a></td>
-      </tr>
-      <tr>
-        <td>18″ / 90T, (3/8″) Wide XL Timing Belt</td>
-        <td>5.59</td>
-        <td>1</td>
-        <td>5.59</td>
-        <td><a href="https://www.servocity.com/18-90t-3-8-wide-xl-timing-belt/" target="_blank">Link</a></td>
-      </tr>
-      <tr>
-        <td>Closed Loop Stepper Driver</td>
-        <td>41.74</td>
-        <td>2</td>
-        <td>83.48</td>
-        <td><a href="https://www.omc-stepperonline.com/closed-loop-stepper-driver-v4-1-0-3-0a-24-48vdc-for-nema-11-14-17-stepper-motor-cl42t-v41" target="_blank">Link</a></td>
-      </tr>
-      <tr>
-        <td>M5 Standoff</td>
-        <td>1.99</td>
-        <td>4</td>
-        <td>7.96</td>
-        <td><a href="https://www.mcmaster.com/95947A547/" target="_blank">Link</a></td>
-      </tr>
-      <tr>
-        <td>Raspberry Pi 4 Model B</td>
-        <td>35.00</td>
-        <td>1</td>
-        <td>35.00</td>
-        <td><a href="https://www.adafruit.com/product/4295" target="_blank">Link</a></td>
-      </tr>
-      <tr>
-        <td>Diametricly Polarized Magnet</td>
-        <td>1.50</td>
-        <td>1</td>
-        <td>1.50</td>
-        <td><a href="https://mjbots.com/products/d42dia" target="_blank">Link</a></td>
-      </tr>
-      <tr>
-        <td>AS5048B ADAPTERBOARD</td>
-        <td>16.66</td>
-        <td>1</td>
-        <td>16.66</td>
-        <td><a href="https://www.digikey.com/en/products/detail/ams-osram-usa-inc/AS5048B-ADAPTERBOARD/3188613" target="_blank">Link</a></td>
-      </tr>
-      <tr>
-        <td>
+  <thead>
+    <tr>
+      <th>Part</th>
+      <th>Preowned?</th>
+      <th>Cost per Unit</th>
+      <th>Units</th>
+      <th>Total Cost</th>
+      <th>Link</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Brushless Motors</td>
+      <td>Yes</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>moteus c1 controller</td>
+      <td>Yes</td>
+      <td>69</td>
+      <td>2</td>
+      <td>138</td>
+      <td><a href="https://mjbots.com/products/moteus-r4-11" target="_blank">Link</a></td>
+    </tr>
+    <tr>
+      <td>608 2RS Ball Bearings</td>
+      <td>Yes</td>
+      <td>4.99</td>
+      <td>1</td>
+      <td>4.99</td>
+      <td><a href="https://www.amazon.com/608-2RS-Ball-Bearings-Skateboard/dp/B0CX8CDL7D/" target="_blank">Link</a></td>
+    </tr>
+    <tr>
+      <td>6814ZZ Deep Groove Ball Bearings</td>
+      <td>No</td>
+      <td>9.99</td>
+      <td>2</td>
+      <td>19.98</td>
+      <td><a href="https://www.amazon.com/HARFINGTON-Bearings-Shielded-Bearing-Conveyors/dp/B0CGXGH432/" target="_blank">Link</a></td>
+    </tr>
+    <tr>
+      <td>6s Lipo Battery</td>
+      <td>No</td>
+      <td>21.99</td>
+      <td>1</td>
+      <td>21.99</td>
+      <td><a href="https://www.amazon.com/Ovonic-Battery-1000mAh-Connector-CINEWHOOP/dp/B07JPK99D9/" target="_blank">Link</a></td>
+    </tr>
+    <tr>
+      <td>Portable Charger</td>
+      <td>Yes</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>Touch Screen</td>
+      <td>No</td>
+      <td>39.99</td>
+      <td>1</td>
+      <td>39.99</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>Berry-GPS-IMU</td>
+      <td>Yes</td>
+      <td>79</td>
+      <td>1</td>
+      <td>79</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>Linear Rods</td>
+      <td>Yes</td>
+      <td></td>
+      <td></td>
+      <td>0</td>
+      <td></td>
+    </tr>
+  </tbody>
+</table>
+
 <!-- References Section -->
     <section id="references">
       <h2>References</h2>
