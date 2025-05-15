@@ -237,5 +237,4 @@
         <li>Ajay: Software and firmware integration and </li>
       </ul>
     </section>
-  </main>
 
