@@ -37,7 +37,7 @@
     <!-- Introduction Section -->
     <section id="introduction">
       <h2>Introduction</h2>
-      <p>< This project had 3 significant aspects to it:mech anical, electical, and software. The mechanical side involved designing a new mount for a
+      <p> This project had 3 significant aspects to it:mech anical, electical, and software. The mechanical side involved designing a new mount for a
       telescope that would be motorized in 2 axes to allow it to point anywhere in the night sky. The main conciderations here were avoiding colisions and               ensuring the motors had enough torque. This was acomplished by offsetting the mount for the scope behind the first rotational axis, and implimenting a 
       4:1 belt drive system
         
@@ -50,7 +50,7 @@
       north. The second axis is automatically zeroed baced on its position at startup, which it assumes to be level with the ground. When a user selects a target 
       (such as a planet or the moon) from the touch screen GUI, the name of that target, the current GPS location, and the current time are given to Skyfield.   
       Skyfield gives us back degrees in the altitude and azimuth, which we then translate into motor rotations for each axis. We then use moteus to convert those
-      rotations into a CANFD message, and send it over the CAN line  ></p>
+      rotations into a CANFD message, and send it over the CAN line  </p>
     </section>
 
     <!-- Design and Testing Section -->
