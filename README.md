@@ -39,9 +39,7 @@
       <h2>Introduction</h2>
       <p> This project had 3 significant aspects to it:mech anical, electical, and software. The mechanical side involved designing a new mount for a
       telescope that would be motorized in 2 axes to allow it to point anywhere in the night sky. The main conciderations here were avoiding colisions and               ensuring the motors had enough torque. This was acomplished by offsetting the mount for the scope behind the first rotational axis, and implimenting a 
-      4:1 belt drive system
-        
-      On the electical side, we needed the ability to drive 2 brushless motors, ensure positional feedback, automatically get GPS location and heading, have a
+      4:1 belt drive system. On the electical side, we needed the ability to drive 2 brushless motors, ensure positional feedback, automatically get GPS location and heading, have a
       touch screen controller, and power everything. For our motor drivers we used the mjbots moteus c1 driver, which comunicates over CANFD. To suport this off
       the pi, we also used the mjbots usb-canfd converter. For heading and GPS, we used the Berry-GPS-IMU-4. Our touchscreen was a cheap amazon pi monitor that
       uses HTMI for signal and USB for power. The pi was powered off a cell phone charger via USB-C, and the motion system is powered using a 6s Lipo battery
