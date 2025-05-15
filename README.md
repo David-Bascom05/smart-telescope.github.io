@@ -19,7 +19,7 @@
   <nav>
     <ul>
       <li><a href="#objective">Objective</a></li>
-      <li><a href="#video">Project Video</a></li>
+      <li><a href="https://www.youtube.com/watch?v=et91Gea6CPk" target="_blank">Project Video</a></li>
       <li><a href="#introduction">Introduction</a></li>
       <li><a href="#design">Design & Testing</a></li>
       <li><a href="#results">Results</a></li>
