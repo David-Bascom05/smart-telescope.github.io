@@ -52,7 +52,6 @@
         Skyfield. Skyfield gives us back degrees in the altitude and azimuth, which we then translate into motor rotations for each axis. We then use moteus to 
         convert those rotations into a CANFD message, and send it over the CAN line</p>
     </section>
-
     <!-- Design and Testing Section -->
     <section id="design">
       <h2>Design & Testing</h2>
