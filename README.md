@@ -55,7 +55,30 @@
     <!-- Design and Testing Section -->
     <section id="design">
       <h2>Design & Testing</h2>
-      <p>Hiiiiiiiii</p>
+      <p>Mechanically, all parts of this project are 3D printed. Linear Rods from an old 3D printer are used to rienforce the prints to make them stronger.
+      Large breakings are also used on both rotational axes to ensure smooth opperation. The design is made in 21 individual 3D prints, and assembled using 
+      linear rods and M3 screws. This part of the project went pretty smoothly. Asside from a few print failures, a bit of trouble getting the bearings to sit
+      properly in thier press fit housing, and one of the prints being the wrong size, and requiring a reprint. </p>
+      <p>Electically, things also went pretty smoothly. Soldering the motors to the boards directly reduced costs for connectors. To power the boards, we made 
+      a custom wire harness to split power from the Lipo into two connectors. Similarly, CAN is also split after the converter board. These all required quite 
+      a bit of soldering. The pi is simply plugged into the phone charger, and the touch screen into the pi.We had a weird issue where the touch screen would not
+      work with certain USB ports/cables, but this issue was fixed by switching out the USB cable that connected to the screen. The IMU is a pihat, which did 
+      require us to remove the piTFT and reconfigure the pi to boot without it. Later, we discovered that the on board GPS antenna did not work, even outdoors,
+      and decided not to use it </p>
+      <p>Software is definitly where we had the most issues. Querrying data from the IMU was pretty simple to impliment, but it took us quite a while of messing 
+      with the software to figure out that we were not the issue, but the hardware was. After figuring this out, we ditched it entirely, and set the telescope up
+      so that it would auto zero in the startup position. Implimenting the GUI went decently smoothly, but took a relatively long time due to the number of 
+      targets that we needed to be able to see. This was a large part of the reason why the 7 in touch screen was choosen, as the piTFT was MUCH too small for
+      this. The real chalenge was figuring out what the actual targets are. Skyfield has a number of files you can download that each have differnt targets in 
+      them. We wanted to be able to automatically see what the targets in the file were, extract them, turn them into a human readable name, and send that back
+      to the library. We did this so that different files could be loaded and any new targets would still apear on the GUI. To do this, however, we did spend a
+      considerable amount of time figuring out how to extract target names, auto-renaming everything into something that made sense to humans, and automatically,
+      laying out the GUI buttons baced on the number of targets available in a file. </p>
+      <p> During testing we dicovered several things. The first of which was that a lot of the entries in the skyfield files point to random points in the 
+        universe called "baricenters". These are centers of gravitational attraction, and there is nothing there. We ended up having to filter these out of the 
+      valid targets that could be displayed on the GUI. Furthermore, we discovered that the the motors we selected we not very precice. While this was not an 
+      issue when looking at objects that were large or close by (like the moon), objects that did not fit those criteria were in many cases completely out of the 
+      telescope's view. Unfortunatly, this did come down to a physical limitation of the motor, and was not something we could fix</p>
     </section>
     <!-- Results Section -->
     <section id="results">
