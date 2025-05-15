@@ -4,15 +4,15 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Smart Telescope Final Project</title>
+  Smart Telescope Final Project
   <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
   <!-- Header -->
   <header>
     <h1>Smart Telescope Project</h1>
-    <p>Date: May 2025</p>
-    <p>Team Members: Alice (alice1), Bob (bob2), Charlie (charlie3)</p>
+    <p>Date: May 14, 2025</p>
+    <p>Team Members: David Bascom (ddb73), Ajay Sunkara (aks237)</p>
     <img src="img/team_photo.jpg" alt="Team Photo" />
   </header>
 
