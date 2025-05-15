@@ -227,7 +227,6 @@
 // ...
       </code></pre>
     </section>
-
     <!-- Contributions Section -->
     <section id="contributions">
       <h2>Team Contributions</h2>
