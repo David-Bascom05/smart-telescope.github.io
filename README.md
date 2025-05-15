@@ -12,8 +12,9 @@
     <h1>Smart Telescope Project</h1>
     <p>Date: May 14, 2025</p>
     <p>Team Members: David Bascom (ddb73), Ajay Sunkara (aks237)</p>
-    <p>This project seeks to help those who are bad at pointing a telescope themselves enjoy being able to still use there telescope and see distant planets up           close. It strives to take away any technical skill or high monitary limit from the anmature astronmers, and let whomever wants have an easy viewing                experience of the night sky</p>
     <img src="/imgs/PXL_20250515_022017859.jpg" alt="Team Photo" />
+    <h4>Fig. 1: Full Assembly of Smart Telescope Mount</h4>
+    <p>This project seeks to help those who are bad at pointing a telescope themselves enjoy being able to still use there telescope and see distant planets up           close. It strives to take away any technical skill or high monitary limit from the anmature astronmers, and let whomever wants have an easy viewing                experience of the night sky</p>
   </header>
 
   <!-- Navigation -->
