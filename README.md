@@ -203,7 +203,7 @@
       </tr>
       <tr>
         <td>
-    <!-- References Section -->
+          <!-- References Section -->
     <section id="references">
       <h2>References</h2>
       <ul>
