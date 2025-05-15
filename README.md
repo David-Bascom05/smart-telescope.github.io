@@ -113,6 +113,9 @@
     <!-- Budget Section -->
 <section id="budget">
   <h2>Budget</h2>
+  <p>To avoid budget constraints, most of the parts for this project were repurposed from things that I had laying around, such as an old 3D printer and drone. 
+    Preowned parts are marked as so in the table below, and prices/links have been provided to all preowned parts that I was able to find a sorce for.
+  </p>
   <table>
   <thead>
     <tr>
