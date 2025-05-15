@@ -1,0 +1,1 @@
+# smart-telescope.github.io
