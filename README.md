@@ -34,23 +34,23 @@
   </nav>
 
   <main>
-    <!-- Objective Section -->
-    <section id="objective">
-      <h2>Objective</h2>
-      <p><!-- Succinct 3-4 line problem statement here --></p>
-    </section>
-
-    <!-- Video Section -->
-    <section id="video">
-      <h2>Project Video</h2>
-      <p>Placeholder video (replace after upload):</p>
-      <iframe width="560" height="315" src="https://www.youtube.com/embed/et91Gea6CPk" frameborder="0" allowfullscreen></iframe>
-    </section>
-
     <!-- Introduction Section -->
     <section id="introduction">
       <h2>Introduction</h2>
-      <p><!-- Short description of what was done --></p>
+      <p><!-- This project had 3 significant aspects to it:mech anical, electical, and software. The mechanical side involved designing a new mount for a
+      telescope that would be motorized in 2 axes to allow it to point anywhere in the night sky. The main conciderations here were avoiding colisions and               ensuring the motors had enough torque. This was acomplished by offsetting the mount for the scope behind the first rotational axis, and implimenting a 
+      4:1 belt drive system
+        
+      On the electical side, we needed the ability to drive 2 brushless motors, ensure positional feedback, automatically get GPS location and heading, have a
+      touch screen controller, and power everything. For our motor drivers we used the mjbots moteus c1 driver, which comunicates over CANFD. To suport this off
+      the pi, we also used the mjbots usb-canfd converter. For heading and GPS, we used the Berry-GPS-IMU-4. Our touchscreen was a cheap amazon pi monitor that
+      uses HTMI for signal and USB for power. The pi was powered off a cell phone charger via USB-C, and the motion system is powered using a 6s Lipo battery
+      
+      As for the software, we used two librarys: Skyfield and moteus. Upon startup, the mount takes in the current heading, and zeros the first axis to face due
+      north. The second axis is automatically zeroed baced on its position at startup, which it assumes to be level with the ground. When a user selects a target 
+      (such as a planet or the moon) from the touch screen GUI, the name of that target, the current GPS location, and the current time are given to Skyfield.   
+      Skyfield gives us back degrees in the altitude and azimuth, which we then translate into motor rotations for each axis. We then use moteus to convert those
+      rotations into a CANFD message, and send it over the CAN line  --></p>
     </section>
 
     <!-- Design and Testing Section -->
