@@ -56,7 +56,7 @@
     <!-- Design and Testing Section -->
     <section id="design">
       <h2>Design & Testing</h2>
-      <p><!-- Design steps, issues, testing methods --></p>
+      <p>Hiiiiiiiii</p>
     </section>
 
     <!-- Results Section -->
