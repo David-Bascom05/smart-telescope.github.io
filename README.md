@@ -202,14 +202,22 @@
     </tr>
   </tbody>
 </table>
-
 <!-- References Section -->
-    <section id="references">
-      <h2>References</h2>
-      <ul>
-        <!-- Cite datasheets, papers, websites, class materials -->
-      </ul>
-    </section>
+<section id="references">
+  <h2>References</h2>
+  <ul>
+    <li>
+      <a href="https://github.com/mjbots/moteus/blob/main/docs/reference.md" target="_blank">
+        https://github.com/mjbots/moteus/blob/main/docs/reference.md
+      </a>
+    </li>
+    <li>
+      <a href="https://rhodesmill.org/skyfield/" target="_blank">
+        https://rhodesmill.org/skyfield/
+      </a>
+    </li>
+  </ul>
+</section>
     <!-- Code Appendix Section -->
     <section id="code">
       <h2>Code Appendix</h2>
