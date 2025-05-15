@@ -45,13 +45,15 @@
         over CANFD. To suport this off the pi, we also used the mjbots usb-canfd converter. For heading and GPS, we used the Berry-GPS-IMU-4. Our touchscreen was 
         a cheap amazon pi monitor that uses HTMI for signal and USB for power. The pi was powered off a cell phone charger via USB-C, and the motion system is 
         powered using a 6s Lipo battery. </p>
+      <img src="/imgs/9u1uqo.gif" alt="GUI" />
+      <h4>Fig. 2: GUI Planet Selector</h4>
       <p>As for the software, we used two librarys: Skyfield and moteus. Upon startup, the mount takes in the current heading, and zeros the first axis to face 
         due 
         north. The second axis is automatically zeroed baced on its position at startup, which it assumes to be level with the ground. When a user selects a
         target (such as a planet or the moon) from the touch screen GUI, the name of that target, the current GPS location, and the current time are given to 
         Skyfield. Skyfield gives us back degrees in the altitude and azimuth, which we then translate into motor rotations for each axis. We then use moteus to 
         convert those rotations into a CANFD message, and send it over the CAN line</p>
-      <img src="/imgs/9u1uqo.gif" alt="GUI" />
+      
     </section>
     <!-- Design and Testing Section -->
     <section id="design">
