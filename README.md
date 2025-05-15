@@ -57,25 +57,21 @@
       <h2>Design & Testing</h2>
       <p>Hiiiiiiiii</p>
     </section>
-
     <!-- Results Section -->
     <section id="results">
       <h2>Results</h2>
       <p><!-- Did everything perform as planned? Goals met? --></p>
     </section>
-
     <!-- Conclusions Section -->
     <section id="conclusions">
       <h2>Conclusions</h2>
       <p><!-- Project achievements and failures --></p>
     </section>
-
     <!-- Future Work Section -->
     <section id="future-work">
       <h2>Future Work</h2>
       <p><!-- Exploration if more time allowed --></p>
     </section>
-
     <!-- Budget Section -->
     <section id="budget">
       <h2>Budget</h2>
@@ -83,7 +79,6 @@
         <!-- List parts and costs here -->
       </ul>
     </section>
-
     <!-- References Section -->
     <section id="references">
       <h2>References</h2>
@@ -91,7 +86,6 @@
         <!-- Cite datasheets, papers, websites, class materials -->
       </ul>
     </section>
-
     <!-- Code Appendix Section -->
     <section id="code">
       <h2>Code Appendix</h2>
