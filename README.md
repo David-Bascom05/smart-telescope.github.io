@@ -232,16 +232,9 @@
     <section id="contributions">
       <h2>Team Contributions</h2>
       <ul>
-        <li>Alice: Mechanical design and prototyping</li>
-        <li>Bob: Electronics integration and firmware</li>
-        <li>Charlie: Software control and UI</li>
+        <li>David: Hardware design (Mechanical and electrical</li>
+        <li>Ajay: Software and firmware integration and </li>
       </ul>
     </section>
   </main>
 
-  <!-- Footer -->
-  <footer>
-    <p>&copy; 2025 Smart Telescope Team, Cornell University</p>
-  </footer>
-</body>
-</html>
