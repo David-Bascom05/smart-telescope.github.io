@@ -223,7 +223,7 @@
     <!-- Code Appendix Section -->
     <section id="code">
       <h2>Code Appendix</h2>
-      <p>See <a href="https://github.com/your-repo-link">code repository</a> for full listings.</p>
+      <p>See <a href="https://github.com/David-Bascom05/smart-telescope.github.io/tree/main/code">code repository</a> for full listings.</p>
       <pre><code>
 // Example code snippet
 // ...
